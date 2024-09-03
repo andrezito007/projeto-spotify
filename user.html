@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Usuário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastrar Novo Usuário</h1>
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="playlist.html">Criar Playlist</a>
+        </nav>
+    </header>
+    <main>
+        <form id="user-form">
+            <h2>Cadastro de Usuário</h2>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <fieldset>
+                <legend>Preferências</legend>
+                <label for="genre">Gêneros favoritos:</label>
+                <input type="text" id="genre" name="genre" placeholder="Ex: Rock, Jazz">
+                
+                <label for="artist">Artistas favoritos:</label>
+                <input type="text" id="artist" name="artist" placeholder="Ex: Beatles, Mozart">
+                
+                <label for="songs">Músicas favoritas:</label>
+                <input type="text" id="songs" name="songs" placeholder="Ex: Hey Jude, Symphony No.5">
+            </fieldset>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

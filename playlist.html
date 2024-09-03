@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Playlist Personalizada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Criar Playlist Personalizada</h1>
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="user.html">Cadastrar Usuário</a>
+        </nav>
+    </header>
+    <main>
+        <form id="playlist-form">
+            <h2>Criação de Playlist com Base no Clima</h2>
+            <label for="location">Localização:</label>
+            <input type="text" id="location" name="location" placeholder="Ex: São Paulo" required>
+            
+            <button type="submit">Criar Playlist</button>
+        </form>
+        
+        <h3>Playlist Criada:</h3>
+        <div id="playlist-result">
+            <!-- Resultados serão exibidos aqui -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
